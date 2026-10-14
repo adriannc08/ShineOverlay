@@ -17,7 +17,7 @@ function createControlPanel() {
     height: 820,
     minWidth: 680,
     minHeight: 600,
-    title: 'Panel de Control — JotaOverlay',
+    title: 'Panel de Control — ShineOverlay',
     backgroundColor: '#111318',
     webPreferences: {
       nodeIntegration: false,

@@ -161,9 +161,9 @@ function isNewerVersion(remote, local) {
 async function checkForUpdates() {
   if (!state.updateChecksEnabled) return;
   try {
-    const repo = 'jotasonder/JotaOverlay';
+    const repo = 'adriannc/ShineOverlay';
     const response = await fetch(`https://api.github.com/repos/${repo}/releases/latest`, {
-      headers: { 'User-Agent': 'JotaOverlay-Updater' }
+      headers: { 'User-Agent': 'ShineOverlay-Updater' }
     });
     if (!response.ok) return;
     
