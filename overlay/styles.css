@@ -472,7 +472,6 @@ html, body {
 /* GOAL VIEW & SCOREBOARD VIEW ────────────────────────────────────────── */
 .goal-banner {
   position: absolute;
-  top: -15px;
   bottom: 0;
   left: 0;
   width: 1920px;
