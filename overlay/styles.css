@@ -472,7 +472,7 @@ html, body {
 /* GOAL VIEW & SCOREBOARD VIEW ────────────────────────────────────────── */
 .goal-banner {
   position: absolute;
-  bottom: 0;
+  bottom: 30px; /* Sube todo el banner 30 píxeles */
   left: 0;
   width: 1920px;
   height: 1160px;
@@ -483,7 +483,7 @@ html, body {
   bottom: 0;
   left: 0;
   width: 1920px;
-  height: calc(100%+360px); /* Extra height to ensure full coverage of in-game area */
+  height: 100%;
   object-fit: fill;
 }
 .goal-inner {
