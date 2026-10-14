@@ -555,7 +555,7 @@ html, body {
   background: url('/assets/podium-bg.png') center / cover no-repeat;
   display: flex;
   flex-direction: column;
-  padding-top: 160px; /* Room for the scoreboard */
+  padding-top: 220px; /* Room for the scoreboard */
   justify-content: center;
   align-items: center;
 }
